@@ -1,0 +1,44 @@
+<div class="header-wrapper">
+        <header>
+                <div class="container">
+
+
+                        <div class="logo-container">
+                                <!-- Website Logo -->
+                            <a href="__APP__"  title="Knowledge Base Theme" style="font-family: 'Arial','Microsoft YaHei','黑体','宋体',sans-serif;color:#fff;display:inline-block;font-size:28px;">  博 客
+                            </a>
+                        </div>
+
+
+                        <!-- Start of Main Navigation -->
+                <nav class="main-nav">
+                        <div class="menu-top-menu-container">
+                                <ul id="menu-top-menu"  >
+                                <volist name="cate" id="vo">
+                            <li><a href="__MODULE__/Cate/index/id/{$vo.id}" style="font-size:20px;"><span <if condition="$currentid eq $vo['id']"> style="border-bottom:2px solid #fff; color:#fff;"</if>>{$vo.catename}</span></a></li>
+                                </volist>
+                                </ul>
+                        </div>
+                </nav>
+                        <!-- End of Main Navigation -->
+                </div>
+        </header>
+</div>
+  
+
+<div class="search-area-wrapper" >
+        <div class="search-area container" >
+               <!-- <h3 class="search-header">你有问题吗？</h3>!-->
+            <div class='biaoqian' style="position:relative;top:-40px; color:   #F0F0F0; font-size:14px;" >标签：      
+               <volist name="tags" id="vo">
+                <a href="__MODULE__/search/index?search={$vo.tagname}"  rel='dropmenu209'   >{$vo.tagname}</a>
+               </volist>
+            </div>
+
+                <form id="search-form" class="search-form clearfix" method="get" action="__MODULE__/Search/index" autocomplete="off">
+                        <input class="search-term required" type="text" id="s" name="search" placeholder="问题搜索" title="* Please enter a search term!" />
+                        <input class="search-btn" type="submit" value="搜索" />
+                        <div id="search-error-container"></div>
+                </form>
+        </div>
+</div>

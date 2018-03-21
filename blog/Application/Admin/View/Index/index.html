@@ -1,0 +1,103 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="__PUBLIC__/favicon.ico" >
+<link rel="Shortcut Icon" href="__PUBLIC__/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css" />
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="__PUBLIC__/http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script><![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>blog_后台管理</title>
+<meta name="keywords" content="blog_后台管理">
+
+</head>
+<body>
+<!--_header 作为公共模版分离出去-->
+  <include  file="Common/header" />
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+  <include file="Common/menu" />
+<!--/_menu 作为公共模版分离出去-->
+
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont"></i> <a href="__MODULE__/Index/Index" class="maincolor">首页</a> <span class="c-999 en">&gt;</span></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<h3>欢迎使用后台管理！</h3>
+<?php  
+ //统计流量（人数，访问次数，用户IP）
+ //假设用户访问，得到IP地址  
+$remote = $_SERVER['REMOTE_ADDR'];//拼凑要写入到文件的数据：ip|2014-8-19 10:24:15  
+$write = $remote . '|' . date('Y-m-d H:i:s');//输出信息：网页已经被第几次访问，当前用户是第几次来访问  
+$str = file_get_contents('./Public/record.txt');//定义一个变量保存当前用户的点击次数  
+$clickcount = 1;//判断当前有没有记录访问信息
+ if($str){  //有数据   //以行区分当前文件有多少行   
+    $rows = explode("\r\n",$str);//获取已经访问过的用户的数量   
+    $count = count($rows) + 1;//判断当前用户是第几次访问该网页      
+    foreach($rows as $key=>$value){    //value代表一个访问记录    
+        $ip = explode("|",$value);//判读是不是当前用户查看的    
+      if($ip[0] == $remote)//以前访问的记录与当前用户的ip相同     
+              $clickcount++;    
+          
+        } //修改write   
+        $write = "\r\n" . $write;  
+}else{   //当前用户是第一个来访问该网页   
+       $count = 1;  
+}
+ //写入数据  
+file_put_contents('./Public/record.txt',$write,FILE_APPEND);
+ //输出信息  
+echo "<p>当前网页已经是第".$count."次被访问</p>";  
+echo "<p>您是第".$clickcount."次来访问该网页</p>";
+?>
+
+
+
+			<p>本次登录IP：{$Think.server.remote_addr} &nbsp;&nbsp;&nbsp;本次登录时间：<?php echo date('Y-m-d H:i:s');?></p>
+			<table class="table table-border table-bordered table-bg ">
+               <thead>
+                 <tr>
+                   <th colspan="2" scope="">系统信息</td>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                    <td width="30%">服务器IP地址</td>
+                    <td>{$Think.server.http_host} </td>
+                 </tr>
+                 <tr>
+                    <td>服务器端口</td>
+                    <td>{$Think.server.server_port}</td>
+                 </tr>
+               </tbody>
+			</table>
+		</article>
+	</div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+ <include file="Common/footer" />
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript">
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

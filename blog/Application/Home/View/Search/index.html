@@ -1,0 +1,122 @@
+<!doctype html>
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+<!-- META TAGS -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>博客_search</title>
+<link rel="shortcut icon" href="images/favicon.png" />
+<!-- Style Sheet-->
+<link rel="stylesheet" href="style.css"/>
+<link rel='stylesheet' id='bootstrap-css-css'  href='__PUBLIC__/css/bootstrap5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='__PUBLIC__/css/responsive5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css-css'  href='__PUBLIC__/js/prettyphoto/prettyPhotoaeb9.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css-css'  href='__PUBLIC__/css/main5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css-css'  href='__PUBLIC__/css/custom5152.html?ver=1.0' type='text/css' media='all' />
+<link href="__PUBLIC__/style/lady.css" type="text/css" rel="stylesheet" />
+
+
+<style type="text/css">
+   div.biaoqian a{color:#DEDEDE;}
+   div.biaoqian a:hover{color:#fff; border-bottom: 2px solid red; }
+
+
+.list-page{padding:20px 0;text-align:left;}
+.list-page a{margin:0 5px;padding:2px 7px;border:1px solid #ccc;background:#f3f3f3; text-decoration: none;}
+.list-page a:hover{background:#e4e4e4;border:1px solid #908f8f; text-decoration: none;}
+.list-page .current{margin:0 5px;padding:2px 7px;background:#6f7579;border:1px solid #6f7579;color:#fff;  text-decoration: none;}
+
+
+</style>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<!-- Start of Header -->
+  <include file="Common/header" />
+<!-- End of Header -->
+
+<!-- Start of Search Wrapper -->
+
+<!-- End of Search Wrapper -->
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" title="模板之家">模板之家</a></div>
+
+<!-- Start of Page Container -->
+<div class="page-container">
+        <div class="container">
+                <div class="row">
+
+                        <!-- start of page content -->
+                        <div class="span8 page-content">
+<div class="position">搜索：<span style="color:#f00; font-weight:bold;">{$keysword}</span> </div>
+<if condition="$list eq null">暂无数据</if>
+
+       <div class="left">
+        <volist name="list" id="vo">
+         <div class="xnews2">
+           <div class="pic">
+              <a target="_blank" href="__MODULE__/article/index/id/{$vo.id}">
+              <img src="__ROOT__/{$vo.pic}" alt=""/></a>
+           </div>                 
+           <div class="dec">
+             <h3><a target="_blank" href="__MODULE__/article/index/id/{$vo.id}">{$vo.title}</a>
+             </h3>
+                <div class="time">发布时间：{$vo.time}</div>
+                <p >
+                 {$vo.des|substr=0,250} .....
+                </p>
+                <div class="time">
+                  <?php
+                   $arr=explode(',',$vo[keysword]);
+                   foreach($arr as $k=>$v)
+                   {
+                     echo "<a href='__MODULE__/Search/index/search/".$v."'>".$v."</a>";
+                   }
+                  ?>
+                
+                </div>
+                </div>
+         </div>
+        </volist>              
+                <div class="list-page" >
+                     {$show}
+                </div>
+
+        </div>
+        
+
+                        </div>
+                        <!-- end of page content -->
+
+
+<!-- start of sidebar -->
+ <include file="Common/menu" />
+<!-- end of sidebar -->
+</div>
+        </div>
+</div>
+<!-- End of Page Container -->
+
+<!-- Start of Footer -->
+  <include file="Common/footer" />
+<!-- End of Footer -->
+
+<a href="#top" id="scroll-top"></a>
+
+<!-- script -->
+<script type='text/javascript' src='__PUBLIC__/js/jquery-1.8.3.min.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/prettyphoto/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='__PUBLIC__/s/jflickrfeed.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/jquery.liveSearch.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/jquery.form.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/jquery.validate.min.js'></script>
+<script type='text/javascript' src='__PUBLIC__/js/custom.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?php if (!defined('THINK_PATH')) exit(); if(C('LAYOUT_ON')) { echo ''; } ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>跳转提示</title>
+<script src="http://127.0.0.1/blog/Application/Admin/Public/layer/jquery.js"></script>
+<script src="http://127.0.0.1/blog/Application/Admin/Public/layer/layer.js"></script>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+.system-message{ padding: 24px 48px; }
+.system-message h1{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+.system-message .jump{ padding-top: 10px}
+.system-message .jump a{ color: #333;}
+.system-message .success,.system-message .error{ line-height: 1.8em; font-size: 36px }
+.system-message .detail{ font-size: 12px; line-height: 20px; margin-top: 12px; display:none}
+</style>
+</head>
+<body>
+<input type="hidden" name="msg" id="msg" value="
+<?php  if(isset($message)){ echo($message); }else{ echo($error); } ?>">
+<input type="hidden" name="url" id="url" value="<?php echo($jumpUrl); ?>">
+<input type="hidden" name="wait" id="wait" value="<?php echo($waitSecond); ?>">
+
+<script type="text/javascript">
+(function(){
+	
+var  msg=$('#msg').val();
+var  url=$('#url').val();
+var  wait=$('#wait').val();
+layer.open({
+  content: msg,
+  btn: ['确定'],
+  yes: function(index, layero){
+   location.href=url;
+  },
+  cancel: function(){ 
+    //右上角关闭回调
+    location.href=false;
+    //return false 开启该代码可禁止点击该按钮关闭
+  }
+});
+
+})();
+</script>
+</body>
+</html>

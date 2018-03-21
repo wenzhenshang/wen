@@ -1,0 +1,728 @@
+[ 2018-03-17T17:00:51+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-03-17T17:00:51+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2018-03-17T17:02:27+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2018-03-17T17:02:27+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2018-03-17T17:02:28+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2018-03-17T17:02:28+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2018-03-17T17:02:28+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2018-03-17T17:02:29+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-03-17T17:02:29+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-03-17T17:02:29+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2018-03-17T17:02:42+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2018-03-17T17:02:42+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2018-03-17T17:02:43+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2018-03-17T17:02:43+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2018-03-17T17:03:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 1 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2018-03-17T17:03:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 0 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\924808055458c07e9f4d1040ae4bac5b.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-03-17T17:03:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/images/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-03-17T17:03:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 2 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\924808055458c07e9f4d1040ae4bac5b.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\924808055458c07e9f4d1040ae4bac5b.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2018-03-17T17:03:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 0 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\924808055458c07e9f4d1040ae4bac5b.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-03-17T17:03:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 4 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2018-03-17T17:03:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Cate/index/id/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` WHERE `cateid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` WHERE `cateid` = 0 ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\924808055458c07e9f4d1040ae4bac5b.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2018-03-17T17:03:17+08:00 ] 127.0.0.1 /blog/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2018-03-17T17:03:18+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `blo_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_tags` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `blo_tags`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blo_article` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `blo_article` ORDER BY click desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `blo_article` WHERE `state` = 1 ORDER BY click desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blo_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blo_article` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined variable: currentid E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant keysword - assumed 'keysword' E:\xampp\htdocs\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
